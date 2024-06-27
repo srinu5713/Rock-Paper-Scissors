@@ -13,12 +13,12 @@ root.resizable(False, False)
 
 # storing the pictures
 
-rock_img = ImageTk.PhotoImage(Image.open("rock-user.png"))
-paper_img = ImageTk.PhotoImage(Image.open("paper-user.png"))
-scissor_img = ImageTk.PhotoImage(Image.open("scissors-user.png"))
-rock_img_comp = ImageTk.PhotoImage(Image.open("rock.png"))
-paper_img_comp = ImageTk.PhotoImage(Image.open("paper.png"))
-scissor_img_comp = ImageTk.PhotoImage(Image.open("scissors.png"))
+rock_img = ImageTk.PhotoImage(Image.open("Images\paper.png"))
+paper_img = ImageTk.PhotoImage(Image.open("Images\paper-user.png"))
+scissor_img = ImageTk.PhotoImage(Image.open("Images\scissors-user.png"))
+rock_img_comp = ImageTk.PhotoImage(Image.open("Images\rock.png"))
+paper_img_comp = ImageTk.PhotoImage(Image.open("Images\paper.png"))
+scissor_img_comp = ImageTk.PhotoImage(Image.open("Images\scissors.png"))
 
 # labeling the initial picture
 
